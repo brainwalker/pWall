@@ -1,0 +1,48 @@
+! Title: pwall bypass filter for AdGuard
+! Description: newspaper pwall bypass filter for AdGuard
+! Version: 0.1b
+! TimeUpdated: 2021-12-19
+! Expires: never
+! Homepage: https://github.com/brainwalker/pWall
+! License: ???
+!
+!-------------------------------------------------------------------------------!
+!------------------ General JS API ---------------------------------------------!
+!-------------------------------------------------------------------------------!
+!
+! ——— BD ———
+prothomalo.com###breaking-news-container
+thefinancialexpress.com.bd###center-ads
+!
+! ——— News CA ———
+!
+!——————————————————————————————————
+! => >>| National Post |<< <=
+!——————————————————————————————————
+!
+!- nationalpost.com###header > div.row.fluid > div.header__right.col-xs-2.col-sm-4:last-child
+!- nationalpost.com##div.sticky--header:nth-child(2) > div.header-breaking__wrapper.header--offset:first-child
+!
+!——————————————————————————————————
+! => >>| The Globe and Mail |<< <=
+!——————————————————————————————————
+!
+theglobeandmail.com/pf/dist/engine/react.js
+smartwall.theglobeandmail.com
+!
+!——————————————————————————————————
+! => >>| Toronto Star |<< <=
+!——————————————————————————————————
+!
+thestar.com/api/overlaydata
+thestar.com##.o-tophat
+!
+!——————————————————————————————————
+! => >>| Financial Post |<< <=
+!——————————————————————————————————
+!
+!- financialpost.com##div.header-breaking__wrapper.header--offset
+!- financialpost.com###header > div.row.fluid > div.header__right
+!
+! ——— US News ———
+washingtonpost.com##.paywall-overlay
