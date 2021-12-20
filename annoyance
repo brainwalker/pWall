@@ -26,12 +26,16 @@ theglobeandmail.com##.pb-f-marketing-container
 !
 thestar.com##.o-tophat-container
 thestar.com##.c-button--subscribe
+thestar.com##.c-partner-articles
+thestar.com###conversations
 !
 !——————————————————————————————————
 ! => >>| National Post |<< <=
 !——————————————————————————————————
 !
 nationalpost.com##.header-breaking__wrapper
+nationalpost.com##.header__right
+nationalpost.com##.newsletter-widget
 !
 !——————————————————————————————————
 ! => >>| Financial Post |<< <=
@@ -39,5 +43,9 @@ nationalpost.com##.header-breaking__wrapper
 !
 financialpost.com##.header-breaking__wrapper
 financialpost.com##.header__right
+financialpost.com##.newsletter-widget
+financialpost.com##.sponsored-meta-content
+financialpost.com##.widget-partner
+financialpost.com###video-container
 !
 !
