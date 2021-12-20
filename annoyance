@@ -18,13 +18,14 @@
 !
 theglobeandmail.com##.js-sub-pencil
 theglobeandmail.com##.c-site-header__button
+theglobeandmail.com##.pb-f-marketing-container
 !
 !——————————————————————————————————
 ! => >>| Toronto Star |<< <=
 !——————————————————————————————————
 !
 thestar.com##.o-tophat-container
-thestar.com###app > div.page > nav.o-main-menu.o-main-menu--sticky.o-main-menu--sticky--open:nth-child(6) > div.o-main-menu-container > a.c-button.c-button--subscribe
+thestar.com##.c-button--subscribe
 !
 !——————————————————————————————————
 ! => >>| National Post |<< <=
@@ -37,5 +38,6 @@ nationalpost.com##.header-breaking__wrapper
 !——————————————————————————————————
 !
 financialpost.com##.header-breaking__wrapper
+financialpost.com##.header__right
 !
 !
