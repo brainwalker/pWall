@@ -10,6 +10,11 @@
 !------------------ General JS API ---------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+*$script,domain=tinypass.com
+*$script,domain=cdn.onesignal.com
+*$script,domain=cdn.cxense.com
+*$script,domain=cdn.ampproject.org
+!
 !——————————————————————————————————
 ! => >>| The Globe and Mail |<< <=
 !——————————————————————————————————
