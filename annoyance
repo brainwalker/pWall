@@ -28,6 +28,7 @@ thestar.com##.o-tophat-container
 thestar.com##.c-button--subscribe
 thestar.com##.c-partner-articles
 thestar.com###conversations
+thestar.com##.aggregation
 !
 !——————————————————————————————————
 ! => >>| National Post |<< <=
@@ -48,4 +49,14 @@ financialpost.com##.sponsored-meta-content
 financialpost.com##.widget-partner
 financialpost.com###video-container
 !
+!——————————————————————————————————
+! => >>| Washington Post |<< <=
+!——————————————————————————————————
 !
+washingtonpost.com###mobile-footer-ad-wrapper
+!
+
+csmonitor.com##+js(json-prune, ids meteredIds, modified)
+
+
+
