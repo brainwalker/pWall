@@ -12,8 +12,9 @@
 !------------------ General JS API ---------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
-*$script,domain=cdn.onesignal.com
-*$script,domain=cdn.ampproject.org
+!*$script,domain=cdn.onesignal.com
+!*$script,domain=cdn.ampproject.org
+!||experience.tinypass.com
 
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
@@ -30,7 +31,6 @@
 ||poool.fr^$third-party
 ||qiota.com^$third-party
 ||cdn.tinypass.com^$third-party
-||experience.tinypass.com
 ||wallkit.net/js/$third-party
 ||subs.youmaker.com^$third-party
 ||tribdss.com^$third-party
