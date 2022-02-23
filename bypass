@@ -1,41 +1,65 @@
 ! Title: Brainwalker's pwall bypass
 ! Description: newspaper pwall bypass filter for AdGuard
-! Version: 0.1b
-! TimeUpdated: 2021-12-19
+! Version: 0.2b
+! TimeUpdated: 2022-02-23
 ! Expires: never
 ! Homepage: https://github.com/brainwalker/pWall
 ! License: ???
+
+
 !
 !-------------------------------------------------------------------------------!
 !------------------ General JS API ---------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
-!- *$script,domain=tinypass.com
 *$script,domain=cdn.onesignal.com
-*$script,domain=cdn.cxense.com
 *$script,domain=cdn.ampproject.org
 
-! Tinypass blocker (covers many sites, you can most of them here: http://market.tinypass.com/)
-cdn.tinypass.com*
-experience.tinypass.com*
+||loader-cdn.azureedge.net^$third-party
+||blueconic.net^$third-party
+||cdn.cxense.com^$third-party
+||evolok.net^$third-party
+||ippen.space^$third-party
+||lightboxcdn.com^$third-party
+||js.matheranalytics.com^$third-party
+||newsmemory.com?meter$third-party
+||onecount.net^$third-party
+||js.pelcro.com^$third-party
+||piano.io^$third-party
+@@||piano.io^$third-party,domain=asia.nikkei.com,important
+||poool.fr^$third-party
+||qiota.com^$third-party
+||cdn.tinypass.com^$third-party
+||experience.tinypass.com
+||wallkit.net/js/$third-party
+||subs.youmaker.com^$third-party
+||tribdss.com^$third-party
+||zephr.com/zephr-browser/$third-party
+/c/assets/pigeon.js$script,~third-party
+
+
+
 !
 !——————————————————————————————————
 ! => >>| The Globe and Mail |<< <=
 !——————————————————————————————————
 !
-theglobeandmail.com/pf/dist/engine/react.js
-smartwall.theglobeandmail.com
-!
+||theglobeandmail.com/pf/dist/engine/react.js^
+||smartwall.theglobeandmail.com^
+
+
 !——————————————————————————————————
 ! => >>| Toronto Star |<< <=
 !——————————————————————————————————
 !
 thestar.com/api/overlaydata
-!
+
+
 !——————————————————————————————————
 ! => >>| National Post |<< <=
 !——————————————————————————————————
 !
+
 !——————————————————————————————————
 ! => >>| Financial Post |<< <=
 !——————————————————————————————————
