@@ -51,9 +51,9 @@
 !——————————————————————————————————
 ! => >>| Toronto Star |<< <=
 !——————————————————————————————————
+! TorStar sites
+/api/overlaydata$xmlhttprequest,domain=niagarafallsreview.ca|stcatharinesstandard.ca|thepeterboroughexaminer.com|therecord.com|thespec.com|thestar.com|wellandtribune.ca
 !
-thestar.com/api/overlaydata
-
 
 !——————————————————————————————————
 ! => >>| National Post |<< <=
@@ -64,3 +64,51 @@ thestar.com/api/overlaydata
 ! => >>| Financial Post |<< <=
 !——————————————————————————————————
 !
+
+! ==================================================
+
+||washingtonpost.com/tetro/evaluate$xmlhttprequest,~third-party
+!
+csmonitor.com##+js(aopr, localStorage)
+csmonitor.com##.paywall
+!
+foreignpolicy.com##div.content-ungated
+foreignpolicy.com##+js(rc, content-gated, div.content-gated)
+!
+||metering.platform.latimes.com/v*/meter$xmlhttprequest,~third-party
+!
+||meter-svc.nytimes.com/meter.js$script,~third-party
+||mwcm.nyt.com/$script,domain=nytimes.com
+!
+||reuters.com/pf/resources/dist/reuters/js/index.js$script,~third-party
+||reuters.com/arc/subs/p.min.js$script,~third-party
+!
+scientificamerican.com##+js(cookie-remover, /^/)
+!
+science.org##div.alert-read-limit
+science.org##+js(rc, alert-read-limit__overlay, body.alert-read-limit__overlay, stay)
+!
+scribd.com##+js(rc, blurred_page, .blurred_page)
+scribd.com##.between_page_portal_root,.between_page_module,.auto__doc_page_webpack_doc_page_body_static_promo_study,.auto__explain_scribd_v2_advertisement
+!
+theatlantic.com##+js(cookie-remover, articleViews)
+theatlantic.com###paywall
+!
+||thediplomat.com/*/js/angular-cookies.min.js$script,~third-party
+thediplomat.com##+js(cookie-remover, dpl-pw)
+!
+!||time.com/dist/meter-wall-client-js.*.js$script,~third-party
+time.com##.meter-wall
+||time.com/dist/authentication.js
+time.com##body:style(position:static!important;overflow-y:visible!important)
+! New York Magazine
+curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
+fosse.nymag.com/fosse/*/scripts/$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
+
+! General (amp)
+||cdn.ampproject.org/*/amp-access-$script
+||cdn.ampproject.org/*/amp-subscriptions-$script
+@@||cdn.ampproject.org/*/amp-access-$script,domain=cambridge.org
+amp.ft.com,artnet.com,barrons.com,billboard.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,wsj.com##+js(ra, subscriptions-section, [subscriptions-section="content"])
+amp.ft.com,artnet.com,barrons.com,billboard.com,bostonglobe.com,dallasnews.com,fortune.com,latimes.com,marketwatch.com,sandiegouniontribune.com,staradvertiser.com,theathletic.com,theathletic.co.uk,wsj.com##[subscriptions-section="content-not-granted"]
+amp.usatoday.com,digiday.com,inc42.com,indianexpress.com,newsday.com,seekingalpha.com,telegraph.co.uk##+js(ra, amp-access-hide, [amp-access][amp-access-hide])
