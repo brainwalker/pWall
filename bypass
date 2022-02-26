@@ -12,9 +12,7 @@
 !------------------ General JS API ---------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
-!*$script,domain=cdn.onesignal.com
-!*$script,domain=cdn.ampproject.org
-!||experience.tinypass.com
+
 
 ||loader-cdn.azureedge.net^$third-party
 ||blueconic.net^$third-party
@@ -37,11 +35,9 @@
 ||zephr.com/zephr-browser/$third-party
 /c/assets/pigeon.js$script,~third-party
 
-/cdn\.ampproject\.org\/v\d\/amp-(access|(sticky-)?ad|analytics|subscriptions)-.+\.(m)?js/
 
-/\.poool\.fr\//
-/\.artnet\.com\/paywall-ajax\.php/
-/cdn-au\.piano\.io\/api\/tinypass.+\.js/
+/cdn\.ampproject\.org\/v\d\/amp-(access|(sticky-)?ad|analytics|subscriptions|fx-flying-carpet)-.+\.(m)?js/
+/(cdn\.flip-pay\.com\/clients\/inm\/flip-pay\.js)/
 
 
 !
@@ -71,6 +67,8 @@
 !
 
 ! ==================================================
+
+nationalreview.com/script.js
 
 ||washingtonpost.com/tetro/evaluate$xmlhttprequest,~third-party
 !
@@ -109,6 +107,7 @@ time.com##body:style(position:static!important;overflow-y:visible!important)
 ! New York Magazine
 curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
 fosse.nymag.com/fosse/*/scripts/$script,domain=curbed.com|grubstreet.com|nymag.com|thecut.com|vulture.com
+
 
 ! General (amp)
 ||cdn.ampproject.org/*/amp-access-$script
