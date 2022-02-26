@@ -37,6 +37,11 @@
 ||zephr.com/zephr-browser/$third-party
 /c/assets/pigeon.js$script,~third-party
 
+/cdn\.ampproject\.org\/v\d\/amp-(access|(sticky-)?ad|analytics|subscriptions)-.+\.(m)?js/
+
+/\.poool\.fr\//
+/\.artnet\.com\/paywall-ajax\.php/
+/cdn-au\.piano\.io\/api\/tinypass.+\.js/
 
 
 !
