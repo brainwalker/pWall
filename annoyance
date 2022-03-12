@@ -12,7 +12,6 @@
 
 
 
-
 ! ——— News CA ———
 !
 !——————————————————————————————————
@@ -21,34 +20,27 @@
 theglobeandmail.com##.js-sub-pencil
 theglobeandmail.com##.c-site-header__button
 theglobeandmail.com##.pb-f-marketing-container
+theglobeandmail.com##.recommender-wrapper, .marketing-container-wrapper
 
 
 !——————————————————————————————————
 ! => >>| Toronto Star |<< <=
 !——————————————————————————————————
-thestar.com##.o-tophat-container
-thestar.com##.c-button--subscribe
-thestar.com##.c-partner-articles
+thestar.com##.aggregation, .o-tophat-container, .c-button--subscribe, .c-partner-articles
 thestar.com###conversations
-thestar.com##.aggregation
+thestar.com##.c-more-articles, .c-two-column-layout__column-one--small
 
 
 !——————————————————————————————————
 ! => >>| National Post |<< <=
 !——————————————————————————————————
-nationalpost.com##.header-breaking__wrapper
-nationalpost.com##.header__right
-nationalpost.com##.newsletter-widget
+nationalpost.com##.header__right, .header-breaking__wrapper, .newsletter-widget
 
 
 !——————————————————————————————————
 ! => >>| Financial Post |<< <=
 !——————————————————————————————————
-financialpost.com##.header-breaking__wrapper
-financialpost.com##.header__right
-financialpost.com##.newsletter-widget
-financialpost.com##.sponsored-meta-content
-financialpost.com##.widget-partner
+financialpost.com##.header-breaking__wrapper, .widget-partner, .header__right, .newsletter-widget, .sponsored-meta-content
 financialpost.com###video-container
 
 
@@ -67,12 +59,40 @@ washingtonpost.com###mobile-footer-ad-wrapper
 !——————————————————————————————————
 ! => >>| Barrons |<< <=
 !——————————————————————————————————
-barrons.com##.wsj-ad
-
+barrons.com##.wsj-ad, .BarronsTheme--user-wrapper--3OZFfSHF
 
 csmonitor.com##+js(json-prune, ids meteredIds, modified)
+
 chicagotribune.com##.s2nPlayer
-sloanreview.mit.edu##.welcome-box
-sloanreview.mit.edu##.news-signup
+
+sloanreview.mit.edu##.welcome-box, .news-signup
+
 nationalreview.com##.meter-ribbon--expanded
+
+amp.ft.com##.more-ons, .o-message__container
+
+insider.com##.multi-newsletter-signup, .notification-banner-message
+
+wsj.com##.scope-web\|mobileapps, .style--login-buttons--3iPE-lSo
+
+bnnbloomberg.ca##.teaser-element, .bm-vidi-float-player
+
+businessinsider.com##notification-banner, .app-sticky-footer-button
+
+foreignaffairs.com##.navbar-buttons
+
+thediplomat.com###dri-home
+
+fortune.com##.newsletter_block__newsletterGridBg--121FV
+fortune.com##.homepageplea__homepagePlea--qHGMv
+fortune.com##.sidebar__wrapper--EA35Y
+
+m.investing.com##.adDrawer
+
+investors.com##.market-banner, .signBar-bgColor
+
+morningstar.ca###adcontainsm, adcontainnew, ColRight
+
+ca.finance.yahoo.com##.social-bar-fixed, .ys-mobileFeaturedAd
+ca.finance.yahoo.com###module-featurebar
 
