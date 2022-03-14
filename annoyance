@@ -1,9 +1,9 @@
 
 ! Title: Brainwalker's News Annoyance
 ! Description: Newspaper annoyance filter for AdGuard
-! Version: 0.2b
-! TimeUpdated: 2022-03-11
-! Expires: never
+! Version: 0.3b
+! TimeUpdated: 2022-03-14
+! Expires: 1 day
 ! Homepage: https://github.com/brainwalker/pWall
 ! License: ???
 !
@@ -11,18 +11,17 @@
 !------------------ General JS API ---------------------------------------------!
 !-------------------------------------------------------------------------------!
 
-
+!——————————————————————————————————
+! => >>| BD News |<< <=
+!——————————————————————————————————
+thedailystar.net##.top-leaderboard
 
 ! ——— News CA ———
 !
 !——————————————————————————————————
 ! => >>| The Globe and Mail |<< <=
 !——————————————————————————————————
-theglobeandmail.com##.js-sub-pencil
-theglobeandmail.com##.c-site-header__button
-theglobeandmail.com##.pb-f-marketing-container
-theglobeandmail.com##.recommender-wrapper, .marketing-container-wrapper
-
+theglobeandmail.com##.js-sub-pencil, .c-site-header__button, .pb-f-marketing-container, .recommender-wrapper, .marketing-container-wrapper
 
 !——————————————————————————————————
 ! => >>| Toronto Star |<< <=
@@ -31,12 +30,10 @@ thestar.com##.aggregation, .o-tophat-container, .c-button--subscribe, .c-partner
 thestar.com###conversations
 thestar.com##.c-more-articles, .c-two-column-layout__column-one--small
 
-
 !——————————————————————————————————
 ! => >>| National Post |<< <=
 !——————————————————————————————————
 nationalpost.com##.header__right, .header-breaking__wrapper, .newsletter-widget
-
 
 !——————————————————————————————————
 ! => >>| Financial Post |<< <=
@@ -44,12 +41,10 @@ nationalpost.com##.header__right, .header-breaking__wrapper, .newsletter-widget
 financialpost.com##.header-breaking__wrapper, .widget-partner, .header__right, .newsletter-widget, .sponsored-meta-content
 financialpost.com###video-container
 
-
 !——————————————————————————————————
 ! => >>| BNN Bloomberg |<< <=
 !——————————————————————————————————
-bnnbloomberg.ca##.scoreboard-wrapper
-
+bnnbloomberg.ca##.scoreboard-wrapper, .teaser-element, .bm-vidi-float-player
 
 !——————————————————————————————————
 ! => >>| Washington Post |<< <=
@@ -62,38 +57,57 @@ washingtonpost.com###mobile-footer-ad-wrapper
 !——————————————————————————————————
 barrons.com##.wsj-ad, .BarronsTheme--user-wrapper--3OZFfSHF
 
-csmonitor.com##+js(json-prune, ids meteredIds, modified)
-
-chicagotribune.com##.s2nPlayer
-
-sloanreview.mit.edu##.welcome-box, .news-signup
-
-nationalreview.com##.meter-ribbon--expanded
-
-amp.ft.com##.more-ons, .o-message__container
-
-insider.com##.multi-newsletter-signup, .notification-banner-message
-
+!——————————————————————————————————
+! => >>| WSJ |<< <=
+!——————————————————————————————————
 wsj.com##.scope-web\|mobileapps, .style--login-buttons--3iPE-lSo
 
-bnnbloomberg.ca##.teaser-element, .bm-vidi-float-player
+!——————————————————————————————————
+! => >>| Financial Times |<< <=
+!——————————————————————————————————
+amp.ft.com##.more-ons, .o-message__container
+ft.com##.markets-data-wrapper
 
+!——————————————————————————————————
+! => >>| Business Insider |<< <=
+!——————————————————————————————————
+insider.com##.multi-newsletter-signup, .notification-banner-message
 businessinsider.com##notification-banner, .app-sticky-footer-button
 
+!——————————————————————————————————
+! => >>| Foreign Affairs |<< <=
+!——————————————————————————————————
 foreignaffairs.com##.navbar-buttons
 
+!——————————————————————————————————
+! => >>| The Diplomat |<< <=
+!——————————————————————————————————
 thediplomat.com###dri-home
 
-fortune.com##.newsletter_block__newsletterGridBg--121FV
-fortune.com##.homepageplea__homepagePlea--qHGMv
-fortune.com##.sidebar__wrapper--EA35Y
+!——————————————————————————————————
+! => >>| Fortune |<< <=
+!——————————————————————————————————
+fortune.com##.sidebar__wrapper--EA35Y, .newsletter_block__newsletterGridBg--121FV, .homepageplea__homepagePlea--qHGMv
 
+!——————————————————————————————————
+! => >>| Investing |<< <=
+!——————————————————————————————————
 m.investing.com##.adDrawer
 
-investors.com##.market-banner, .signBar-bgColor
-
+!——————————————————————————————————
+! => >>| Morning Star |<< <=
+!——————————————————————————————————
 morningstar.ca###adcontainsm, adcontainnew, ColRight
 
+!——————————————————————————————————
+! => >>| Yahoo Finance |<< <=
+!——————————————————————————————————
 ca.finance.yahoo.com##.social-bar-fixed, .ys-mobileFeaturedAd
 ca.finance.yahoo.com###module-featurebar
+
+investors.com##.market-banner, .signBar-bgColor
+csmonitor.com##+js(json-prune, ids meteredIds, modified)
+chicagotribune.com##.s2nPlayer
+sloanreview.mit.edu##.welcome-box, .news-signup
+nationalreview.com##.meter-ribbon--expanded
 
